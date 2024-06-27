@@ -1,6 +1,7 @@
 # Chat with your PDF document(s)
 
-#### Video Demo: https://youtu.be/4Hq_LqhJPnw
+![demo-screen](https://github.com/SarahWSY/rag-webapp/assets/47151064/c239c0f4-75d3-4f50-b085-f95b91e5ad0e)
+
 
 #### Description: 
 This project is a web application which allows the user to “chat with” and quickly extract information from one or more of their PDF documents. It also allows some flexibility for the user to choose their preferred retrieval method (maximal marginal relevance/self query retrieval/similarity threshold) and prompting strategy (stuff/map reduce) which may work better for their data. The default options are Maximal Marginal Relevance for retrieval and Stuff for prompting strategy. Users also have the option to modify the chunk size and chunk overlap which are set to 1024 and 128 by default.
